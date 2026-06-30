@@ -87,7 +87,10 @@ export async function getContentItems(kind: ContentKind) {
       const html = await markdownToHtml(content)
 
       const urlPath = `/${kind}/${path.basename(dir)}`
-      const cover = typeof data.cover === "string" ? data.cover : images[0]
+      const cover =
+  typeof data.cover === "string"
+    ? toPublicPath(contentRoot, path.join(dir, data.cover))
+    : images[0]
 
       return {
         slug: path.basename(dir),
