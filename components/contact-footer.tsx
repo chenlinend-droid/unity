@@ -20,11 +20,11 @@ export function ContactFooter() {
           <div className="lg:col-span-4 lg:col-start-9">
             <dl className="space-y-8">
               <div>
-                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">联系人 · Contact</dt>
+                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">联系人 / Contact</dt>
                 <dd className="mt-2 font-serif text-2xl">{contact.name}</dd>
               </div>
               <div>
-                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">电话 · Phone</dt>
+                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">电话 / Phone</dt>
                 <dd className="mt-2">
                   <a href={`tel:${contact.phone.replace(/\s/g, "")}`} className="text-lg transition-colors hover:text-accent">
                     {contact.phone}
@@ -32,7 +32,7 @@ export function ContactFooter() {
                 </dd>
               </div>
               <div>
-                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">邮箱 · Email</dt>
+                <dt className="text-xs uppercase tracking-[0.2em] text-primary-foreground/55">邮箱 / Email</dt>
                 <dd className="mt-2">
                   <a href={`mailto:${contact.email}`} className="text-lg transition-colors hover:text-accent">
                     {contact.email}

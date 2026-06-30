@@ -11,11 +11,11 @@ export function About() {
           </h2>
           <div className="mt-8 h-px w-16 bg-accent" />
           <p className="mt-8 text-pretty leading-relaxed text-muted-foreground">
-            自 2012 年成立以来，宇泰始终专注于室内设计与装修中的墙纸、布艺、皮革、地毯等材料的选材与应用，
+            自 2012 年成立以来，宇泰始终专注于室内设计与装饰中的墙纸、布艺、皮革、地毯等材料选材与应用，
             代理多个国际高端品牌，为酒店、地产精装与高端私宅提供从选材到落地的一站式服务方案。
           </p>
           <p className="mt-5 text-pretty leading-relaxed text-muted-foreground">
-            感恩遇见，用心服务，专业诚信，完美呈现——这是我们对每一个空间的承诺。
+            感恩遇见，用心服务，专业诚信，完美呈现。这是我们对每一个空间的承诺。
           </p>
         </div>
 

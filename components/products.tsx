@@ -13,10 +13,10 @@ export function Products({ items }: ProductsProps) {
         <div className="flex flex-col items-start justify-between gap-6 md:flex-row md:items-end">
           <div>
             <p className="text-xs tracking-[0.35em] text-accent">PRODUCT RANGE</p>
-            <h2 className="mt-6 font-serif text-4xl leading-tight text-balance lg:text-5xl">浜у搧鑼冪暣</h2>
+            <h2 className="mt-6 font-serif text-4xl leading-tight text-balance lg:text-5xl">产品矩阵</h2>
           </div>
           <p className="max-w-sm text-sm leading-relaxed text-primary-foreground/70">
-            浠庡闈㈠埌鍦伴潰锛屼粠瑙︽劅鍒板厜娉斤紝瀹囨嘲浠ヤ綋绯诲寲鐨勬潗鏂欑粍鍚堬紝鏋勫缓绌洪棿鐨勬暣浣撴皵璐ㄣ€?
+            从墙面到地面，从触感到光泽，宇泰以体系化的材料组合，构建空间的整体气质。
           </p>
         </div>
 

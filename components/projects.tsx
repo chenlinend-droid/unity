@@ -12,10 +12,10 @@ export function Projects({ items }: ProjectsProps) {
       <div className="mb-20 text-center">
         <p className="text-xs tracking-[0.35em] text-accent">HOTEL PROJECTS</p>
         <h2 className="mt-6 font-serif text-4xl leading-tight text-foreground text-balance lg:text-5xl">
-          閰掑簵椤圭洰妗堜緥
+          酒店项目案例
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-          浠庡浗瀹鹃鍒板浗闄呴厭搴楅泦鍥紝瀹囨嘲浠ヤ笓涓氫笌璇氫俊锛屽弬涓庡閫犱紬澶氬ア鍗庣┖闂淬€?
+          从国宾馆到国际酒店集团，宇泰以专业与诚信，参与塑造众多豪华空间。
         </p>
       </div>
 
@@ -25,10 +25,7 @@ export function Projects({ items }: ProjectsProps) {
           const cover = p.cover ?? p.images[0] ?? "/placeholder.svg"
 
           return (
-            <article
-              key={p.slug}
-              className="grid items-center gap-8 lg:grid-cols-12 lg:gap-12"
-            >
+            <article key={p.slug} className="grid items-center gap-8 lg:grid-cols-12 lg:gap-12">
               <div className={`lg:col-span-7 ${reversed ? "lg:order-2 lg:col-start-6" : ""}`}>
                 <Link href={p.urlPath} className="block overflow-hidden">
                   <Image

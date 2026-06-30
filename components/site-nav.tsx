@@ -37,10 +37,7 @@ export function SiteNav() {
         <ul className="hidden items-center gap-10 md:flex">
           {links.map((l) => (
             <li key={l.href}>
-              <a
-                href={l.href}
-                className="group flex flex-col text-sm transition-colors hover:text-accent"
-              >
+              <a className="group flex flex-col text-sm transition-colors hover:text-accent" href={l.href}>
                 <span>{l.label}</span>
                 <span className="text-[10px] uppercase tracking-[0.18em] opacity-60">{l.labelEn}</span>
               </a>
