@@ -31,13 +31,13 @@ export function SiteNav() {
           scrolled ? "text-foreground" : "text-background"
         }`}
       >
-        <a href="#top" className="flex items-center gap-2">
+        <a href="#top" className="flex items-center gap-2 bg-transparent">
           <Image
             src="/unistai.png"
-            alt="宇泰 logo"
-            width={132}
-            height={42}
-            className="h-9 w-auto object-contain"
+            alt="Unistai logo"
+            width={600}
+            height={600}
+            className="h-28 w-auto object-contain md:h-32"
             priority
           />
         </a>

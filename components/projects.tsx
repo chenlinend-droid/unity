@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import type { ContentItem } from "@/lib/content"
 
@@ -28,11 +27,9 @@ export function Projects({ items }: ProjectsProps) {
             <article key={p.slug} className="grid items-center gap-8 lg:grid-cols-12 lg:gap-12">
               <div className={`lg:col-span-7 ${reversed ? "lg:order-2 lg:col-start-6" : ""}`}>
                 <Link href={p.urlPath} className="block overflow-hidden">
-                  <Image
+                  <img
                     src={cover}
                     alt={`${p.title} 项目空间`}
-                    width={1600}
-                    height={1000}
                     className="aspect-[16/10] w-full object-cover"
                   />
                 </Link>

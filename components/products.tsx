@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import type { ContentItem } from "@/lib/content"
 
@@ -27,11 +26,9 @@ export function Products({ items }: ProductsProps) {
               <article key={p.slug} className="group bg-primary">
                 <div className="overflow-hidden">
                   <Link href={p.urlPath}>
-                    <Image
+                    <img
                       src={cover}
                       alt={`${p.title} 材料`}
-                      width={1200}
-                      height={1600}
                       className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </Link>
