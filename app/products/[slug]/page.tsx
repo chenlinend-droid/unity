@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { MarkdownContent } from "@/components/mdx-content"
@@ -46,7 +45,7 @@ export default async function ProductDetail({ params }: PageProps) {
         <p className="mt-4 text-sm uppercase tracking-[0.2em] text-accent">{item.category}</p>
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {images.map((src) => (
-            <Image key={src} src={src} alt={item.title} width={1200} height={1600} className="w-full object-cover" />
+            <img key={src} src={src} alt={item.title} className="w-full object-cover" />
           ))}
         </div>
         <article className="prose prose-neutral mt-12 max-w-none">

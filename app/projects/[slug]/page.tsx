@@ -1,5 +1,4 @@
 import type { Metadata } from "next"
-import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
 import { MarkdownContent } from "@/components/mdx-content"
@@ -48,7 +47,7 @@ export default async function ProjectDetail({ params }: PageProps) {
         </p>
         <div className="mt-10 grid gap-6">
           {images.map((src) => (
-            <Image key={src} src={src} alt={item.title} width={1600} height={1100} className="w-full object-cover" />
+            <img key={src} src={src} alt={item.title} className="w-full object-cover" />
           ))}
         </div>
         <article className="prose prose-neutral mt-12 max-w-none">
