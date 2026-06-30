@@ -37,7 +37,7 @@ export function SiteNav() {
             alt="Unistai logo"
             width={600}
             height={600}
-            className="h-28 w-auto object-contain md:h-32"
+            className="h-40 w-auto object-contain md:h-44 lg:h-48"
             priority
           />
         </a>

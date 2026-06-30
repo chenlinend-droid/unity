@@ -45,7 +45,7 @@ export default async function ProjectDetail({ params }: PageProps) {
         <p className="mt-4 text-sm uppercase tracking-[0.2em] text-accent">
           {[item.location, item.year, item.category].filter(Boolean).join(" / ")}
         </p>
-        <div className="mt-10 grid gap-6">
+        <div className="mt-10 grid gap-8 lg:gap-10">
           {images.map((src) => (
             <img key={src} src={src} alt={item.title} className="w-full object-cover" />
           ))}

@@ -18,7 +18,7 @@ export function Projects({ items }: ProjectsProps) {
         </p>
       </div>
 
-      <div className="flex flex-col gap-24 lg:gap-32">
+      <div className="flex flex-col gap-28 lg:gap-36">
         {items.map((p, i) => {
           const reversed = i % 2 === 1
           const cover = p.cover ?? p.images[0] ?? "/placeholder.svg"
@@ -30,7 +30,7 @@ export function Projects({ items }: ProjectsProps) {
                   <img
                     src={cover}
                     alt={`${p.title} 项目空间`}
-                    className="aspect-[16/10] w-full object-cover"
+                    className="aspect-[18/11] w-full object-cover"
                   />
                 </Link>
               </div>

@@ -43,7 +43,7 @@ export default async function ProductDetail({ params }: PageProps) {
         </Link>
         <h1 className="mt-6 font-serif text-4xl text-foreground lg:text-6xl">{item.title}</h1>
         <p className="mt-4 text-sm uppercase tracking-[0.2em] text-accent">{item.category}</p>
-        <div className="mt-10 grid gap-6 md:grid-cols-2">
+        <div className="mt-10 grid gap-8 md:grid-cols-2 lg:gap-10">
           {images.map((src) => (
             <img key={src} src={src} alt={item.title} className="w-full object-cover" />
           ))}

@@ -29,11 +29,11 @@ export function Products({ items }: ProductsProps) {
                     <img
                       src={cover}
                       alt={`${p.title} 材料`}
-                      className="aspect-[3/4] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                      className="aspect-[4/5] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                     />
                   </Link>
                 </div>
-                <div className="px-7 py-8">
+                <div className="px-7 py-10">
                   <span className="font-serif text-sm text-accent">0{i + 1}</span>
                   <h3 className="mt-3 font-serif text-2xl">
                     <Link href={p.urlPath}>{p.title}</Link>
