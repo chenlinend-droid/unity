@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { useEffect, useState } from "react"
 
 const links = [
@@ -30,9 +31,15 @@ export function SiteNav() {
           scrolled ? "text-foreground" : "text-background"
         }`}
       >
-        <a href="#top" className="flex items-baseline gap-2">
-          <span className="font-serif text-xl tracking-[0.3em]">UNITEX</span>
-          <span className="text-xs tracking-[0.2em] opacity-70">宇泰</span>
+        <a href="#top" className="flex items-center gap-2">
+          <Image
+            src="/unistai.png"
+            alt="宇泰 logo"
+            width={132}
+            height={42}
+            className="h-9 w-auto object-contain"
+            priority
+          />
         </a>
         <ul className="hidden items-center gap-10 md:flex">
           {links.map((l) => (
