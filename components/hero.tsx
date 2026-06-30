@@ -11,9 +11,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-foreground/80 via-foreground/45 to-transparent" />
 
       <div className="relative mx-auto flex w-full max-w-7xl flex-col px-6 lg:px-10">
-        <p className="mb-6 text-xs tracking-[0.45em] text-background/70">
-          SINCE {company.founded} · 国际品牌代理
-        </p>
+        <p className="mb-6 text-xs tracking-[0.45em] text-background/70">SINCE {company.founded} ·</p>
         <h1 className="max-w-3xl font-serif text-5xl leading-[1.08] text-background text-balance sm:text-6xl lg:text-7xl">
           以材料的语言
           <br />

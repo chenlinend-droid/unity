@@ -15,7 +15,7 @@ export function Projects({ items }: ProjectsProps) {
           酒店项目案例
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-pretty leading-relaxed text-muted-foreground">
-          从国宾馆到国际酒店集团，宇泰以专业与诚信，参与塑造众多豪华空间。
+          从中国出发，触达全球高标酒店，宇泰以专业与诚信，参与塑造众多豪华空间。
         </p>
       </div>
 

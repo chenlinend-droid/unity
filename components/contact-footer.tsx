@@ -13,7 +13,7 @@ export function ContactFooter() {
               寻找恰到好处的材料
             </h2>
             <p className="mt-8 max-w-md leading-relaxed text-primary-foreground/70">
-              无论是酒店、地产精装还是高端私宅，欢迎与我们联系，获取专属的选材与落地方案。
+              无论是酒店、地产精装还是高端私宅，欢迎与我们联系，获取专属的选材与落地方案。我们的专业与经验，不仅仅局限于五星级酒店领域。
             </p>
           </div>
 
@@ -45,7 +45,7 @@ export function ContactFooter() {
 
         <div className="mt-24 flex flex-col items-start justify-between gap-6 border-t border-primary-foreground/15 pt-10 sm:flex-row sm:items-center">
           <div className="flex items-baseline gap-3">
-            <span className="font-serif text-lg tracking-[0.3em]">UNITEX</span>
+            <span className="font-serif text-lg tracking-[0.3em]">Unistai</span>
             <span className="text-xs tracking-[0.2em] text-primary-foreground/55">宇泰</span>
           </div>
           <p className="text-xs tracking-[0.15em] text-primary-foreground/55">

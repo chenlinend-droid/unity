@@ -1,16 +1,16 @@
 export const company = {
-  nameEn: "UNITEX",
+  nameEn: "Unistai",
   nameZh: "宇泰",
   founded: "2012",
   tagline: "墙纸 / 布艺 / 皮革 / 地毯",
   taglineEn: "Wallcovering / Upholstery / Leather / Carpet",
   intro:
-    "专注于室内设计与装饰中的墙纸、布艺、皮革、地毯等材料选材与落地方案，提供一站式服务。",
+    "专注于酒店室内设计中的墙纸、布艺、皮革、地毯等材料选材与落地方案，提供一站式服务。",
 }
 
 export const milestones = [
   { year: "2012", textZh: "宇泰成立", textEn: "Unitex founded" },
-  { year: "2019", textZh: "Unitex × GaNache 合作", textEn: "Unitex × GaNache" },
+  { year: "2019", textZh: "Unistai 推出 Umtex 系列", textEn: "Unistai launched Umtex series" },
   { year: "2020", textZh: "Unitex H 系列发布", textEn: "Unitex H Series launched" },
 ]
 

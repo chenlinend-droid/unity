@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "UNITEX",
+  title: "Unistai",
   description: "设计公司官网内容管理系统，支持项目、产品、新闻与下载资料的 Markdown CMS。",
   generator: "Next.js",
   metadataBase: new URL("https://v0-project-beryl-gamma-65.vercel.app"),
